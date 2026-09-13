@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TAJ AI</string>
+    <string name="accessibility_service_description">TAJ AI इस्तेमाल करता है ताकि आपकी आवाज़ से बताए गए काम (app खोलना, मैसेज टाइप करना, स्क्रीन पढ़ना) कर सके। यह data कहीं और नहीं भेजी जाती, सिर्फ़ आपके निर्देश पूरे करने के लिए इस्तेमाल होती है।</string>
+    <string name="orb_notification_title">TAJ AI चालू है</string>
+    <string name="orb_notification_text">बोलिए — मैं सुन रहा हूँ</string>
+</resources>

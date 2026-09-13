@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TajAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/taj_emerald</item>
+        <item name="colorSecondary">@color/taj_cyan</item>
+        <item name="android:windowBackground">@color/taj_bg</item>
+        <item name="android:statusBarColor">@color/taj_bg</item>
+    </style>
+</resources>

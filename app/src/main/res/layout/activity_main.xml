@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/taj_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAJ AI"
+            android:textColor="@color/taj_emerald"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="आपका पर्सनल AI असिस्टेंट"
+            android:textColor="@color/taj_muted"
+            android:textSize="14sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="शुरू करने के लिए नीचे दी गई चारों permission एक-एक करके ऑन करें। यह सिर्फ़ एक बार करना है — उसके बाद दोबारा नहीं माँगी जाएगी।"
+            android:textColor="@color/taj_text"
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnMicPermission"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="1. माइक्रोफ़ोन Permission दें" />
+
+        <Button
+            android:id="@+id/btnCallPermission"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="2. Call / Contacts Permission दें" />
+
+        <Button
+            android:id="@+id/btnOverlayPermission"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="3. Floating Orb (Display over apps) On करें" />
+
+        <Button
+            android:id="@+id/btnAccessibilityPermission"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="4. Accessibility Service On करें" />
+
+        <Button
+            android:id="@+id/btnStartAgent"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/taj_emerald"
+            android:text="TAJ AI चालू करो"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/taj_muted"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>

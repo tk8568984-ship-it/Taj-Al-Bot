@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- "T" monogram, bold geometric letterform in a gold gradient -->
+    <path android:pathData="M28,32 L80,32 L80,45 L61,45 L61,80 L47,80 L47,45 L28,45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="28"
+                android:startY="32"
+                android:endX="80"
+                android:endY="80"
+                android:startColor="#FDE68A"
+                android:centerColor="#F5B93D"
+                android:endColor="#B8791C" />
+        </aapt:attr>
+    </path>
+
+    <!-- Thin emerald accent underline — ties back to the in-app brand color -->
+    <path android:pathData="M42,86 L66,86 L66,89.5 L42,89.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="42"
+                android:startY="86"
+                android:endX="66"
+                android:endY="86"
+                android:startColor="#10B981"
+                android:endColor="#06B6D4" />
+        </aapt:attr>
+    </path>
+</vector>
